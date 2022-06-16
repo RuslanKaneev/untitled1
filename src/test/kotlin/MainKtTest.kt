@@ -124,7 +124,7 @@ class MainKtTest {
         val summaMonth = 4000001
         val sumPerevod = 1500000
         val result = calculationCommission(card, summaMonth, sumPerevod)
-        assertEquals(0,result)
+        assertEquals(-1,result)
     }
 
 }
