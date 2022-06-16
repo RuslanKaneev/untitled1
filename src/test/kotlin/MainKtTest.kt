@@ -118,13 +118,6 @@ class MainKtTest {
         val result = calculationCommission(card, summaMonth, sumPerevod)
         assertEquals(-1,result)
     }
-    @Test
-    fun vkPaySummaMonthMaxNo() {
-        val card = "vkPay"
-        val summaMonth = 4000001
-        val sumPerevod = 1500000
-        val result = calculationCommission(card, summaMonth, sumPerevod)
-        assertEquals(-1,result)
-    }
+
 
 }
